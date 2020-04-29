@@ -1,0 +1,18 @@
+2020-04-26 18:03:48,097 INFO com.crudWithMysql.crudWithMysql.CrudWithMysqlApplicationTests [main] Starting CrudWithMysqlApplicationTests on Apples-MacBook-Pro.local with PID 1174 (started by apple in /Users/apple/Documents/weblearnex/crudWithMysql)
+2020-04-26 18:03:48,103 INFO com.crudWithMysql.crudWithMysql.CrudWithMysqlApplicationTests [main] No active profile set, falling back to default profiles: default
+2020-04-26 18:04:02,397 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-26 18:04:03,181 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.4.12.Final
+2020-04-26 18:04:03,986 INFO org.hibernate.annotations.common.Version [main] HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-26 18:04:04,635 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2020-04-26 18:04:04,651 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2020-04-26 18:04:05,736 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2020-04-26 18:04:05,903 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2020-04-26 18:04:09,893 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-26 18:04:15,871 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-04-26 18:04:22,595 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2020-04-26 18:04:22,751 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2020-04-26 18:04:23,022 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2020-04-26 18:04:23,716 INFO springfox.documentation.spring.web.readers.operation.CachingOperationNameGenerator [main] Generating unique operation named: getAllUsingGET_1
+2020-04-26 18:04:24,375 INFO com.crudWithMysql.crudWithMysql.CrudWithMysqlApplicationTests [main] Started CrudWithMysqlApplicationTests in 55.378 seconds (JVM running for 65.237)
+2020-04-26 18:04:25,876 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown initiated...
+2020-04-26 18:04:25,942 INFO com.zaxxer.hikari.HikariDataSource [SpringContextShutdownHook] HikariPool-1 - Shutdown completed.
